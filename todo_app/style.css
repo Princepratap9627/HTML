@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f2f2f7;
+}
+
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #007aff;
+  color: white;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-top: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #007aff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.done .circle {
+  background: #007aff;
+}
+
+.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}

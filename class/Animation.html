@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 100vw;
+            height: 500px;
+            text-align: center;
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        h1{ 
+            font-size: 50px;
+            transform:translateX(200px);
+            /*transition-property: transform;
+            transition: transform 3s;*/
+            transition-timing-function: 5s ease-in-out 3s;
+        }
+
+        div{
+            height: 100px;
+            width: ;
+            background-color: lightcoral;
+        }
+
+        @keyframes cardUp {
+            0%{
+                transform: translatex(-20px);
+                opacity:0;
+            }25%{
+                transform: translatex(-15px);
+                opacity:0.25;
+            }50%{
+                transform: translatex(-10px);
+                opacity:0.5;
+            }75%{
+                transform: translatex(-5px);
+                opacity:0.75;
+            }100%{
+                transform: translatex(0px);
+                opacity:1;}
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Animation</h1>
+        <p>Click the button to see the animation effect.</p>
+        <div></div>
+    </main>
+</body>
+</html>
